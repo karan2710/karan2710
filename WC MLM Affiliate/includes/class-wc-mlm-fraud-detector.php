@@ -373,6 +373,3 @@ class WC_MLM_Fraud_Detector {
         return $result;
     }
 }
-
-// Initialize
-WC_MLM_Fraud_Detector::init();

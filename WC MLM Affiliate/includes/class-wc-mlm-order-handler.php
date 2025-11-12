@@ -236,6 +236,3 @@ class WC_MLM_Order_Handler {
         return !empty(self::get_order_affiliate($order_id));
     }
 }
-
-// Initialize
-WC_MLM_Order_Handler::init();

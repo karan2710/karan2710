@@ -209,6 +209,27 @@ class WC_MLM_Affiliate {
         if (class_exists('WC_MLM_Frontend')) {
             WC_MLM_Frontend::get_instance();
         }
+        
+        // Initialize Phase 2 components
+        if (class_exists('WC_MLM_Affiliate_Sync')) {
+            WC_MLM_Affiliate_Sync::init();
+        }
+        
+        if (class_exists('WC_MLM_Fraud_Detector')) {
+            WC_MLM_Fraud_Detector::init();
+        }
+        
+        if (class_exists('WC_MLM_Commission_Engine')) {
+            WC_MLM_Commission_Engine::init();
+        }
+        
+        if (class_exists('WC_MLM_Order_Handler')) {
+            WC_MLM_Order_Handler::init();
+        }
+        
+        if (class_exists('WC_MLM_Cron_Handler')) {
+            WC_MLM_Cron_Handler::init();
+        }
     }
     
     /**

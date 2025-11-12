@@ -308,5 +308,3 @@ class WC_MLM_Affiliate_Sync {
     }
 }
 
-// Initialize
-WC_MLM_Affiliate_Sync::init();

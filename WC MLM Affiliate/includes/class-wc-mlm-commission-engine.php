@@ -390,6 +390,3 @@ class WC_MLM_Commission_Engine {
         }
     }
 }
-
-// Initialize
-WC_MLM_Commission_Engine::init();

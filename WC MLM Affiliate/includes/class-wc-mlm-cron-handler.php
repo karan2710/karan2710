@@ -294,6 +294,3 @@ class WC_MLM_Cron_Handler {
         return $result;
     }
 }
-
-// Initialize
-WC_MLM_Cron_Handler::init();
