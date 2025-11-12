@@ -143,6 +143,7 @@ class WC_MLM_Affiliate {
             'includes/class-wc-mlm-roles.php',
             'includes/class-wc-mlm-database.php',
             'includes/class-wc-mlm-frontend.php',
+            'includes/class-wc-mlm-affiliate-sync.php', // NEW: Sync handler
             // Phase 2 files
             'includes/class-wc-mlm-fraud-detector.php',
             'includes/class-wc-mlm-commission-engine.php',
