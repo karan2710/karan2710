@@ -1,0 +1,84 @@
+/* WC MLM Affiliate - Admin Styles */
+
+.wc-mlm-admin {
+    margin-top: 20px;
+}
+
+.wc-mlm-dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.stat-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    border-left: 4px solid #6366F1;
+}
+
+.stat-box h3 {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-box .stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.wc-mlm-dashboard-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.wc-mlm-dashboard-content h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* Form Styles */
+.wc-mlm-admin .form-table th {
+    width: 250px;
+    font-weight: 600;
+}
+
+.wc-mlm-admin .form-table input[type="number"],
+.wc-mlm-admin .form-table input[type="text"] {
+    width: 300px;
+}
+
+/* Button Styles */
+.wc-mlm-admin .button-primary {
+    background: #6366F1;
+    border-color: #6366F1;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.wc-mlm-admin .button-primary:hover {
+    background: #4f46e5;
+    border-color: #4f46e5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wc-mlm-dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-box .stat-number {
+        font-size: 24px;
+    }
+}
